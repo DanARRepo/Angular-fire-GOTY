@@ -15,7 +15,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser-esbuild",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/goty",
             "index": "src/index.html",
@@ -100,8 +100,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "f1738c77-bdc3-4dd3-a392-e7fd947ec6e3"
   }
 }
